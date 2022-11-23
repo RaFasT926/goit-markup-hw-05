@@ -11,32 +11,25 @@
 </head>
 
 <body>
+
   <header>
     <div class="header-elements-container">
-      <nav class="logo-nav-container">
-        <div class="logo-container">
-          <a class="header-logo" href="">WebStudio</a>
+    <nav>
+      <div class="header-logo-container">
+          <a class="header-logo" href="">WebStudio</a>        
         </div>
-        <div class="menu-container">
-          <div class="menu-element">
-            <a class="menunav-text" href="">Estudio</a>
-          </div>
-          <div class="menu-element">
+        <div class="menu-container">          
+            <a class="menunav-text" href="">Estudio</a>          
             <a class="menunav-text" href="portafolio.html">Portafolio</a>
-          </div>
-          <div class="menu-element">
             <a class="menunav-text" href="">Contactos</a>
-          </div>
-        </div>
-      </nav>
-
+            </div>
+    </nav>
       <div class="info-container">
         <a class="mail-text" href="mailto:info@devstudio.com">
           <svg class="header-icon" width="16" height="12">
             <use href="images/symbol-defs.svg#icon-mailto">
             </use>
           </svg>info@devstudio.com</a>
-
         <a class="phone-text" href="tel:+525555296000">
           <svg class="header-icon" width="10" height="16">
             <use href="images/symbol-defs.svg#icon-phone">
@@ -52,79 +45,80 @@
       <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
 
       <button type="button" data-modal-open class="big-button">Solicite nuestro servicio</button>
-      <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <button class="modal-button" type="button" data-modal-close>X</button>
-        </div>
-      </div>
+      
 
     </section>
 
     <section class="features-section">
-      <div class="features-container">
+
         <ul class="list">
           <li class="list-item">
+            <div class="svg-item-container">
             <svg class="feat-icon" width="70" height="70">
               <use href="images/symbol-defs.svg#icon-feat1">
               </use>
             </svg>
+          </div>
+          <div class="text-item-container">
+            <h6>ATENCION A LOS DETALLES</h6>
+            <p>Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su
+              medida.</p>
+          </div>
           </li>
           <li class="list-item">
+            <div class="svg-item-container">
             <svg class="feat-icon" width="70" height="70">
               <use href="images/symbol-defs.svg#icon-feat2">
               </use>
             </svg>
+            </div>
+            <div class="text-item-container">
+              <h6>PUNTUALIDAD</h6>
+              <p>Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su
+              tiempo y respetar los plazos acordados.</p>
+            </div>
           </li>
           <li class="list-item">
+            <div class="svg-item-container">
             <svg class="feat-icon" width="70" height="70">
               <use href="images/symbol-defs.svg#icon-feat3">
               </use>
             </svg>
+          </div>
+          <div class="text-item-container">
+            <h6>PLANIFICACION</h6>
+            <p>Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
+          </div>
           </li>
           <li class="list-item">
+            <div class="svg-item-container">
             <svg class="feat-icon" width="70" height="70">
               <use href="images/symbol-defs.svg#icon-feat4">
               </use>
             </svg>
-          </li>
-          <li class="list-item">
-            <h6>ATENCION A LOS DETALLES</h6>
-            <p>Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su
-              medida.</p>
-          </li>
-          <li class="list-item">
-            <h6>PUNTUALIDAD</h6>
-            <p>Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su
-              tiempo y respetar los plazos acordados.</p>
-          </li>
-          <li class="list-item">
-            <h6>PLANIFICACION</h6>
-            <p>Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
-          </li>
-          <li class="list-item">
+          </div>
+          <div class="text-item-container">
             <h6>TECNOLOGÍA MODERNA</h6>
             <p>Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos
               laborales.</p>
-          </li>
+          </div>
         </ul>
-      </div>
     </section>
 
     <section class="wedo">
       <h2>A qué nos dedicamos</h2>
 
       <div class="images-container">
-
         <div class="wd-image">
-          <img src="images/img01.jpg" alt="Codificando en Tablet" width="374" height="323" />
+          <img src="images/img01.jpg" alt="Codificando en Tablet" width="370" height="323" />
           <p class="image-label">APLICACIONES DE ESCRITORIO</p>
         </div>
         <div class="wd-image">
-          <img src="images/img02.jpg" alt="Comparando Celular en Laptop" width="373" height="323" />
+          <img src="images/img02.jpg" alt="Comparando Celular en Laptop" width="370" height="323" />
           <p class="image-label">APLICACIONES MÓVILES</p>
         </div>
         <div class="wd-image">
-          <img src="images/img03.jpg" alt="Paleta de Colores" width="373" height="323" />
+          <img src="images/img03.jpg" alt="Paleta de Colores" width="370" height="323" />
           <p class="image-label">SOLUCIONES DE DISEÑO</p>
         </div>
       </div>
@@ -291,15 +285,19 @@
     </section>
   </main>
 
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-button" type="button" data-modal-close>X</button>
+    </div>
+  </div>
+
   <footer>
     <address>
-      <a class="footer-logo" href="#">WebStudio</a>
+      <a class="footer-logo" href="">WebStudio</a>
       <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-      <p><a class="mailfoot" href="">info@example.com</a>
-        <a class="phonefoot" href="">+52 55 5529 6000</a>
-      </p>
+      <a class="mailfoot" href="">info@example.com</a><br>
+      <a class="phonefoot" href="">+52 55 5529 6000</a>
     </address>
-
 
     <div class="footer-social-info">
       <p>ENCUENTRENOS EN</p>
@@ -328,6 +326,7 @@
     </div>
 
   </footer>
+  
   <script src="modal.js"></script>
 </body>
 
