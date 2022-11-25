@@ -538,11 +538,11 @@ address a {
 
 
 .buttons-container {
-    margin: 106px auto 0;
-    width: 600px;
+    margin: 106px auto 50px;
     height: 38px;
     display: flex;
-    justify-content: space-between;
+    column-gap: 10px;
+    justify-content: center;
 }
 
 .button {
@@ -550,7 +550,7 @@ address a {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 20px;
     text-align: center;
     letter-spacing: 0.03em;
     background: #F5F4FA;
@@ -558,7 +558,7 @@ address a {
     box-shadow: none;
     border: none;
     border-radius: 4px;
-    padding: 8px 22px;
+    padding: 11px 24px;
     cursor: pointer;
 }
 
@@ -570,17 +570,15 @@ address a {
 
 .images-container2 {
     max-width: 1200px;
-    height: 1360px;
     margin: 34px auto 82px auto;
-    text-align: left;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    row-gap: 30px;
 }
 
 .image3 {
     margin-top: 30px;
-    height: 294px;
     box-sizing: border-box;
     border: 1px solid #EEEEEE;
     cursor: pointer;
@@ -609,7 +607,7 @@ address a {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.image3:hover .overlay-image3 {
+.card-body:hover .overlay-image3 {
     transform: translateY(0%);
 }
 
@@ -619,7 +617,7 @@ address a {
     width: 370px;
 }
 
-.overlay-image3 p {
+.card-body p:nth-child(1) {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -629,7 +627,7 @@ address a {
     color: var(--white-color);
 }
 
-.card-body p:nth-child(1) {
+ .card-body2 p:nth-child(1) {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -641,7 +639,7 @@ address a {
     color: var(--text-main-color);
 }
 
-.card-body p:nth-child(2) {
+.card-body2 p:nth-child(2) {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -651,7 +649,3 @@ address a {
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
 }
-
-
- 
-
